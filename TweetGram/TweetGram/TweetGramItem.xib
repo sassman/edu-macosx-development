@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="TweetGramItem" customModule="TweetGram" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="7KH-64-LU4" id="4yJ-FP-0TG"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7KH-64-LU4">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="f7q-2z-Gqf"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7KH-64-LU4" secondAttribute="bottom" id="Efv-5u-hVb"/>
+                <constraint firstItem="7KH-64-LU4" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="GM8-M3-9Zb"/>
+                <constraint firstAttribute="trailing" secondItem="7KH-64-LU4" secondAttribute="trailing" id="gH6-Ff-Dq6"/>
+                <constraint firstItem="7KH-64-LU4" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="pBu-Rp-up9"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="154"/>
+        </customView>
+        <collectionViewItem id="2YY-I0-2XB" customClass="TweetGramItem" customModule="TweetGram" customModuleProvider="target"/>
+    </objects>
+</document>

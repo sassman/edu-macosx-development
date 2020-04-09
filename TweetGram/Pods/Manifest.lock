@@ -1,0 +1,26 @@
+PODS:
+  - Kingfisher (5.13.3):
+    - Kingfisher/Core (= 5.13.3)
+  - Kingfisher/Core (5.13.3)
+  - OAuthSwift (2.0.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.13)
+  - OAuthSwift (~> 2.0.0)
+  - SwiftyJSON (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - OAuthSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Kingfisher: d2b3d6a7200c93b34de9afcdf25c8dd9282ec277
+  OAuthSwift: 6805456763cf1c7ae0c16765257ed430b7aacae7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 98f11352596378646585de574aafc3341d575611
+
+COCOAPODS: 1.9.1
